@@ -82,7 +82,7 @@ h1 {
 	height: 150px;
 	overflow: hidden;
 	border-radius: 3px;
-	background: center no-repeat url("/image/stick.gif");
+	background: center no-repeat url("../image/stick.gif");
  	background-size: 150px;
 }
 
