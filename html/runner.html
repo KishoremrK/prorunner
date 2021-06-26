@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="runner.css"></link>
+<link rel="stylesheet" href="css/runner.css"></link>
 </head>
 
-<audio id="myaudio" src="runner.mp3" preload = "auto"></audio>
+<audio id="myaudio" src="audio/runner.mp3" preload = "auto"></audio>
 <a href="javascript:playsound();"></a>
-<audio id="mybump" src="fallingsound.mp3" preload = "auto"></audio>
+<audio id="mybump" src="audio/fallingsound.mp3" preload = "auto"></audio>
 <a href="javascript:playfallsound();"></a>
 <center>
 <div id= "gameEnd"  style= "font-weight:bold;">GAME OVER!</div> 
  <button id= "playButton" onClick="playGame( );" style= "font-weight:bold;">PLAY</button> 
- <button id= "retryButton" onClick="location.href = 'runner.html';" style= "font-weight:bold;">PLAY AGAIN</button>   
+ <button id= "retryButton" onClick="location.href = 'html/runner.html';" style= "font-weight:bold;">PLAY AGAIN</button>   
 <canvas id="canvas" width="640" height="480"  onclick = "player.jump();" ontouchstart = player.jump();">
   </center> 
-<script src="runner.js"></script>
+<script src="js/runner.js"></script>
   </html>
